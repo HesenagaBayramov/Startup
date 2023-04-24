@@ -1,0 +1,431 @@
+/*** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*fontsize: 100%;
+	vertical-align:baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse; border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/** RESET ****/
+
+
+.all{
+    width: 100%;
+    height: auto
+}
+
+/*navbar baslayir*/
+.logo{
+    float: left ;
+    font: 30px tahoma;
+    margin-top: -8px;
+    padding-right: 250px;
+    color: white
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo a:hover {
+    text-decoration: none;
+    color: #ccc;
+}
+
+nav{
+    border-bottom: thin solid rgba(255, 255, 255, 0.15);
+    font: 16px tahoma ;
+    padding: 30px 0 15px 9% ;
+    background: #000d20;
+    height: 80px
+    
+}
+
+.menu a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    color: #04dbec;
+    transition: 0.5s;
+}
+
+.contact{
+    color: red;
+    margin: -41px 0 0 80%;
+    width: 150px;
+    height: 47px;
+    background: #04dbec;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 14px;
+    padding-left: 25px;
+    float: left
+    
+    
+}
+
+.contact a{
+    font: 16px tahoma;
+    color: white;
+}
+
+.contact a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.menu{ /* navbari yuxari sabitleyir */
+	position:fixed;
+    top:0px;
+    left:0px;
+    right:0px; 
+    height:100px;
+}
+
+/*navbar bitir*/
+
+
+.header1{
+    width: 100%;
+    height: 760px;
+    background: #000d20;
+    margin-top: 50px;
+}
+
+.header1-all{
+    width: 80%;
+    height: 600px;
+    margin-left: 10%;
+}
+
+.header1-write{
+    color: white;
+    font: 22px tahoma;
+    padding-top: 170px;
+    float: left;
+}
+
+.h1-write-1{
+    display: block;
+    font: 42px tahoma;
+    width: 400px;
+    height: auto;
+    padding-bottom: 40px
+}
+
+.h1-write-2{
+    display: block;
+    font: 24px tahoma;
+    width: 500px;
+    height: auto;
+    word-spacing: 5px;
+    padding-bottom: 50px;
+}
+
+.btn{
+    border: 1px solid aqua!important;
+    width: 196px;
+    height: 60px;
+    text-align: center;
+    font: 17px verdana!important;
+    border-radius: 4px;
+    
+}
+
+.btn a{
+    line-height: 45px;
+    text-decoration: none;
+    color: aqua;
+    display: block;
+}
+
+.btn:hover{
+    background: aqua!important;
+    transition: 0.5s;
+}
+
+.btn:hover a{
+    color: black;
+    display: block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/*startup picture baslayir*/
+.header1-picture{
+    width: 480px;
+    height: 608px;
+    float: left;
+    margin-left: 90px;
+}
+
+#startup1{
+    width: 570px;
+    
+}
+/*startup picture bitir*/
+
+
+.header2{
+    width: 100%;
+    height: 760px;
+    background: #f9f9f9;
+}
+
+.header2-service{
+    width: 130px;
+    height: 16px;
+    margin-left:45%;
+    color: #04dbec;
+    font: 16px verdana;
+    margin-top: 60px;
+}
+
+
+.header2-box{
+    width: 360px;
+    height: 203px;
+    margin-top: 50px;
+    margin-left:34%;
+}
+
+.header2-box-text{
+    width: 410px;
+    height: 93px;
+    color: #000;
+    font: bold 30px verdana;
+    
+    
+}
+
+.hdr2txt{
+    margin-left: 11%
+}
+
+.card-all{
+    width: 1020px;
+    height: 420px;
+    margin-left: 180px
+}
+/*Icon 1 baslayir*/
+.card1-all{
+    width: 330px;
+    height: 270px;
+    float: left
+}
+
+.card1-main{
+    width: 290px;
+    height: 220px;
+}
+
+.card1-main-icon1{
+    width: 278px;
+    height: 80px;
+}
+
+.icon1{
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(40deg, #04dbec 0%, #5af0fc 100%);
+    border-radius: 40px 0px 40px 40px;
+    margin-left: 100px;
+    box-shadow: 0px 14px 30px 0px rgb(4 219 236 / 40%);
+}
+
+.card1-main-text{
+    width: 278px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.card1-text{
+    font: 22px verdana;
+    margin-left: 30px
+}
+
+.card1-text2{
+    width: 278px;
+    height: 90px;
+    font: 16px verdana;
+    margin-top: 30px;
+    line-height: 28px;
+    color: #28395a;
+}
+
+#crd-txt1{
+    margin-left: 20px
+}
+
+#crd-txt2{
+    margin-left: 20px
+}
+/*Icon 1 bitir*/
+
+/*Icon 2 baslayir*/
+.card2-all{
+    width: 330px;
+    height: 270px;
+    margin-left: 10px;
+    float: left;
+    
+}
+
+.card2-main{
+    width: 290px;
+    height: 220px;
+}
+
+.card2-main-icon1{
+    width: 278px;
+    height: 80px;
+}
+
+.icon2{
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(40deg, #11ff88 0%, #77ffbb 100%);
+    border-radius: 40px 0px 40px 40px;
+    margin-left: 100px;
+    box-shadow: 0px 14px 30px 0px rgb(17 255 136 / 40%);
+}
+
+.card2-main-text{
+    width: 278px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.card2-text{
+    font: 22px verdana;
+    margin-left: 30px
+}
+
+.card2-text2{
+    width: 278px;
+    height: 90px;
+    font: 16px verdana;
+    margin-top: 30px;
+    line-height: 28px;
+    color: #28395a;
+}
+
+#crd2-txt1{
+    margin-left: 20px
+}
+
+#crd2-txt2{
+    margin-left: 20px
+}
+/*Icon 2 bitir*/
+
+/*Icon 3 baslayir*/
+.card3-all{
+    width: 330px;
+    height: 270px;
+    margin-left: 10px;
+    float: left
+}
+
+.card3-main{
+    width: 290px;
+    height: 220px;
+}
+
+.card3-main-icon1{
+    width: 278px;
+    height: 80px;
+}
+
+.icon3{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px 0px 40px 40px;
+    margin-left: 100px;
+    box-shadow: 0px 14px 30px 0px rgb(245 114 13 / 40%);
+    background-image: linear-gradient(40deg, #f5720d 0%, #f9ab6f 100%);
+}
+
+.card3-main-text{
+    width: 278px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.card3-text{
+    font: 22px verdana;
+    margin-left: 30px
+}
+
+.card3-text2{
+    width: 278px;
+    height: 90px;
+    font: 16px verdana;
+    margin-top: 30px;
+    line-height: 28px;
+    color: #28395a;
+}
+
+#crd3-txt1{
+    margin-left: 20px
+}
+
+#crd3-txt2{
+    margin-left: 20px
+}
+/*Icon 3 bitir*/
+
+.card-button{
+    width: 1000px;
+    height: 80px;
+    float: left;
+    margin-top: 70px
+}
+
+
+
+.crd-btn{
+    border: 1px solid aqua!important;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font: 17px verdana!important;
+    border-radius: 4px;
+    padding-top: 6px;
+    margin-left: 370px
+    
+}
+
+.crd-btn a{
+    line-height: 45px;
+    text-decoration: none;
+    color: aqua;
+    display: block;
+}
+
+.crd-btn:hover{
+    background: aqua!important;
+    transition: 0.5s;
+}
+
+.crd-btn:hover a{
+    color: black;
+    display: block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
